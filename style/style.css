@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    float: left;
+    margin-top: 3%;
+    margin-left: 20%;
+    font-family: cursive;
+    color: green;
+}
+#head-text {
+    margin-left: 40%;
+}
+#text-coming {
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 30px;
+    color: blue;
+    font-family: cursive;
+}
+#header-text {
+    margin-top: -70px;
+    margin-left: 45%;
+    font-size: 25px;
+    font-family: cursive;
+}
+#logo{
+    display: inline;
+    margin-left: 40%;
+}
+#header{
+    margin-top: 70px;
+    width: 100%; 
+    height: 50px;
+    background-color: #fff;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#Navbar{
+    width: 1500px;
+}
+#Navbar> li {
+    width: 12%;
+    list-style: none;
+    float: left;  
+    text-align: center;
+}
+#link > a{
+    margin-top: 10%;
+    margin-left: 25%; 
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-family: cursive; 
+    font-size: 15px;
+    text-decoration: none;
+    width: 135px;
+}
+li > a:hover{
+    background: gray;
+}
+#video{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.panel-footer {
+  background-color: #222;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 0;
+  margin-right: 10px;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+  border: 1px solid gray;
+  padding: 30px;
+  margin-right: 5px;
+}
+#hours > span, #address > span, #testimonials > span {
+  font-size: 1.3em;
+}
+
+#testimonials {
+  font-style: italic;
+  border: 1px solid gray;
+  padding: 20px;
+  float: right;
+  width: 32%;
+}
